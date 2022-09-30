@@ -3,9 +3,14 @@
 let name = "Johnny2"
 var name = "Jonhy1Var"
 
-//functions with 
+//functions + function with value
 func hello(nome: String) {
     print("Helllo " + nome)
 }
-
+//value
 hello(nome: "Maria")
+//Multiples Values
+func hello(firstName: String, lastName: String) {
+    print("Hello \(firstName) \(lastName)")
+}
+hello(firstName: "John", lastName: "Snow")

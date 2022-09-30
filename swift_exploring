@@ -1,0 +1,11 @@
+//let = constants
+//var = variables
+let name = "Johnny2"
+var name = "Jonhy1Var"
+
+//functions with 
+func hello(nome: String) {
+    print("Helllo " + nome)
+}
+
+hello(nome: "Maria")
